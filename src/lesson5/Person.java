@@ -35,11 +35,17 @@ public class Person {
         persArray[4] = new Person("Alex Petuhov", "Sales manager", "alex@list.ru",
                 "89053224821", 3000, 58);
 
-        persArray[0].printInfo();
+        /*persArray[0].printInfo();
         persArray[1].printInfo();
         persArray[2].printInfo();
         persArray[3].printInfo();
-        persArray[4].printInfo();
+        persArray[4].printInfo();*/
+
+        for (int i = 0; i < persArray.length; i++) {
+            if (persArray[i].age > 40) {
+                persArray[i].printInfo();
+            }
+        }
 
     }
 }
