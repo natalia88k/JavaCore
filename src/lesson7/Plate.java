@@ -32,5 +32,4 @@ public class Plate {
     public void decreaseFood (int foodCount) {
         this.food -= foodCount;
     }
-
 }
